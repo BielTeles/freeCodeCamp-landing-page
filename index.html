@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeFlow - Maximize sua Produtividade</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header fixo com navegação -->
+  <header id="header">
+    <div class="header-container">
+      <img id="header-img" src="https://via.placeholder.com/120x40/3498db/ffffff?text=CodeFlow" alt="CodeFlow Logo">
+      <nav id="nav-bar">
+        <a href="#recursos" class="nav-link">Recursos</a>
+        <a href="#como-funciona" class="nav-link">Como Funciona</a>
+        <a href="#precos" class="nav-link">Preços</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção Hero -->
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h1>CodeFlow</h1>
+        <h2>O Aplicativo de Produtividade Feito para Desenvolvedores</h2>
+        <p>Organize seus projetos, gerencie tarefas e acompanhe seu progresso de forma intuitiva e eficiente.</p>
+        
+        <!-- Formulário de email -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Digite seu email para começar"
+            required
+          >
+          <input type="submit" id="submit" value="Começar Grátis">
+        </form>
+      </div>
+    </section>
+
+    <!-- Seção de Recursos -->
+    <section id="recursos">
+      <div class="container">
+        <h2>Recursos Poderosos</h2>
+        <div class="recursos-grid">
+          <div class="recurso-item">
+            <div class="recurso-icon">📊</div>
+            <h3>Dashboard Inteligente</h3>
+            <p>Visualize métricas de produtividade, tempo gasto em projetos e progresso das tarefas em tempo real.</p>
+          </div>
+          <div class="recurso-item">
+            <div class="recurso-icon">🔄</div>
+            <h3>Integração com Git</h3>
+            <p>Conecte seus repositórios e acompanhe commits, pull requests e issues diretamente no app.</p>
+          </div>
+          <div class="recurso-item">
+            <div class="recurso-icon">⚡</div>
+            <h3>Automação de Tarefas</h3>
+            <p>Automatize tarefas repetitivas e focus no que realmente importa: escrever código de qualidade.</p>
+          </div>
+          <div class="recurso-item">
+            <div class="recurso-icon">📱</div>
+            <h3>Multiplataforma</h3>
+            <p>Acesse seus projetos em qualquer dispositivo - desktop, tablet ou smartphone.</p>
+          </div>
+          <div class="recurso-item">
+            <div class="recurso-icon">👥</div>
+            <h3>Colaboração em Equipe</h3>
+            <p>Trabalhe em equipe com comentários, atribuições de tarefas e notificações em tempo real.</p>
+          </div>
+          <div class="recurso-item">
+            <div class="recurso-icon">🎯</div>
+            <h3>Metas e Objetivos</h3>
+            <p>Defina metas pessoais e de equipe, acompanhe o progresso e celebre as conquistas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Como Funciona com Vídeo -->
+    <section id="como-funciona">
+      <div class="container">
+        <h2>Veja o CodeFlow em Ação</h2>
+        <p>Descubra como o CodeFlow pode transformar sua forma de trabalhar em apenas 2 minutos.</p>
+        
+        <div class="video-container">
+          <iframe 
+            id="video"
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="CodeFlow Demo" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="como-funciona-steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Conecte seus Projetos</h3>
+            <p>Importe seus repositórios Git e projetos existentes em segundos.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Organize suas Tarefas</h3>
+            <p>Crie tarefas, defina prioridades e organize tudo em quadros Kanban.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Acompanhe o Progresso</h3>
+            <p>Monitore seu desempenho com relatórios detalhados e insights valiosos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Preços -->
+    <section id="precos">
+      <div class="container">
+        <h2>Planos que se Adaptam a Você</h2>
+        <div class="precos-grid">
+          <div class="preco-card">
+            <h3>Gratuito</h3>
+            <div class="preco">R$ 0<span>/mês</span></div>
+            <ul>
+              <li>✅ Até 3 projetos</li>
+              <li>✅ Tarefas ilimitadas</li>
+              <li>✅ Dashboard básico</li>
+              <li>✅ Suporte por email</li>
+            </ul>
+            <button class="btn-preco">Começar Grátis</button>
+          </div>
+          <div class="preco-card destaque">
+            <h3>Profissional</h3>
+            <div class="preco">R$ 29<span>/mês</span></div>
+            <ul>
+              <li>✅ Projetos ilimitados</li>
+              <li>✅ Integração com Git</li>
+              <li>✅ Relatórios avançados</li>
+              <li>✅ Colaboração em equipe</li>
+              <li>✅ Suporte prioritário</li>
+            </ul>
+            <button class="btn-preco">Escolher Plano</button>
+          </div>
+          <div class="preco-card">
+            <h3>Empresa</h3>
+            <div class="preco">R$ 99<span>/mês</span></div>
+            <ul>
+              <li>✅ Todos os recursos Pro</li>
+              <li>✅ SSO e integrações</li>
+              <li>✅ Suporte 24/7</li>
+              <li>✅ Treinamento dedicado</li>
+              <li>✅ SLA garantido</li>
+            </ul>
+            <button class="btn-preco">Falar com Vendas</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+      <div class="container">
+        <h2>Pronto para Começar?</h2>
+        <p>Junte-se a mais de 50.000 desenvolvedores que já aumentaram sua produtividade com o CodeFlow.</p>
+        
+        <div class="contato-content">
+          <div class="contato-info">
+            <h3>Entre em Contato</h3>
+            <div class="contato-item">
+              <span class="contato-icon">📧</span>
+              <span>contato@codeflow.com</span>
+            </div>
+            <div class="contato-item">
+              <span class="contato-icon">📱</span>
+              <span>+55 (11) 9999-9999</span>
+            </div>
+            <div class="contato-item">
+              <span class="contato-icon">🌍</span>
+              <span>São Paulo, Brasil</span>
+            </div>
+          </div>
+          
+          <div class="newsletter-signup">
+            <h3>Receba Atualizações</h3>
+            <p>Fique por dentro de novas funcionalidades e dicas de produtividade.</p>
+            <form class="newsletter-form" action="https://www.freecodecamp.com/email-submit" method="post">
+              <input 
+                type="email" 
+                placeholder="Seu email" 
+                required
+              >
+              <button type="submit">Inscrever-se</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CodeFlow. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+        <a href="#">Suporte</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 
