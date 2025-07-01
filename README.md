@@ -1,6 +1,5 @@
 # CodeFlow - Landing Page
 
-![CodeFlow Banner](https://via.placeholder.com/800x200/667eea/ffffff?text=CodeFlow+-+Maximize+sua+Produtividade)
 
 ## 📋 Sobre o Projeto
 
